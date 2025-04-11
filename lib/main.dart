@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _playAudio() {
     setState(() {
-      player.play(DeviceFileSource('./assets/crank_dat.mp3'));
+      player.play(AssetSource('crank_dat.mp3'));
     });
   }
 
